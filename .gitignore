@@ -1,0 +1,51 @@
+# Lua compiled files
+*.luac
+*.out
+
+# Configuration files (contains user-specific paths)
+ftgshub_configs/
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Backup files
+*.bak
+*.backup
+
+# Package files
+node_modules/
+packages/
+
+# Auto-generated files (if any)
+gen/
+build/
+dist/
+
+# Security sensitive
+*.key
+*.pem
+credentials.json
+secrets.json
